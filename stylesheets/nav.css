@@ -1,0 +1,52 @@
+nav{
+  background: #F9F9F9; /* цвет фона */
+  width: 300px; /* ширина блока */
+  position: fixed;  /* Фиксированная позиция */
+  top: 45px; /* отступ сверху */
+  left: 10px; /* отступ с лева */
+  padding: 10px; /* внутренний отступ */
+  box-sizing: border-box; /* Говорит браузеру учитывать любые границы и внутренние отступы  */
+  opacity: 0.1;  /* полупрозрачность */
+  transition: all 1s ease; /* появление */
+  height: 92vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+nav:hover{
+  opacity: 1;
+  transition: all .2s ease;
+}  /*  плавное попоявление при наведении */
+
+nav p {
+  margin: 0px; /* внешний отступ */
+  font-weight: bold; /* текст вышелен жирностью  */
+  font-size: 14px!important;
+  word-break: break-word;
+  padding-left: 20px;
+}
+nav a{
+  text-decoration: none; /* убираем все выделения */
+  font-size: 16px!important;
+  padding-bottom: 5px;  /* внутренний отступ снизу */
+  word-break: break-word; /* перенос слова на новую строку */
+  padding-left: 20px;
+}
+nav ul{
+list-style-type: none;
+width: 100%;
+}
+nav ol{
+list-style-type: none;
+width: 100%;
+}
+nav li {
+  margin: 0px; /* внешний отступ */
+  line-height: 10px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-size: 12px!important;
+}

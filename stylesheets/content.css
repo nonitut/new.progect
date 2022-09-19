@@ -1,0 +1,120 @@
+/* stylesheets */
+.ot{
+  width: 200px; /* ширина */
+  height: 100px; /* высота */
+  border-radius: 5px; /* скругление углов */
+  margin: 20px;
+}
+.kubik1{
+background-color: pink;
+border: 1px solid black;
+/* margin: 200px;
+padding: 200px; */
+/* position: absolute; */ /*  Абсолюбное позиционирование */
+}
+.kubik2{
+background-color: blue;
+margin-left: 60px;
+border: 1px solid black;
+/* position: absolute; */
+}
+.kubik3{
+background-color: green;
+border: 1px solid black;
+}
+
+.obskub{
+  background-color: grey;
+  display: flex;
+  position: relative;
+  width: 90%;   /* ширина элемента */
+  padding: 2%;   /* внутренний отступ */
+  margin: 2%;    /* внешний отступ */
+
+}
+
+
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, p, ul,ol, blockquote, div, img, hr {
+  width: 700px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, p, ul,ol, blockquote, div,{
+   margin: 20px auto;
+   padding-top: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+  font-size:
+}
+
+h1 {
+  margin-top: 67px;
+  font-size: 38px; line-height: 45px;
+}
+h1 + p {
+  margin-top: 8px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0,0,0,.4);
+}
+h1 + p + p {
+  margin-top: 30px;
+}
+h2{
+  margin-top: 50px;
+  font-size: 32px;
+  color: rgba(0,0,0,.8);
+}
+
+p, blockquote, li {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 34px;
+
+}
+
+blockquote::before {
+  content: ""
+  /* border:  1px solid black; */
+  width: 3px;
+  border-left: 1px solid black;
+  height: 100%;
+  position: absolute;
+  background: black;
+}
+
+blockquote{
+  font-style: italic;
+  color: rgba(0,0,0,.2);
+}
+
+img{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.menubar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  background: white;
+  box-shadow: 0px 5px 10px -20px rgba(34, 60, 80, 0.1);
+  flex-direction: row;
+  border-bottom: 0.5px solid #aaa;
+}
